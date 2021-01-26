@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnChanges, Input } from '@angular/core';
 
 
 @Component({
@@ -6,14 +6,14 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: './god-father-detail.component.html',
   styleUrls: ['./god-father-detail.component.css']
 })
-export class GodFatherDetailComponent implements OnInit {
+export class GodFatherDetailComponent implements OnChanges {
   @Input() selectedData: any;
 
   constructor() { 
     
   }
 
-  ngOnInit() {
+  ngOnChanges() {
     this.selectedData.image = '../../assets/_images/profile-pics/'+this.selectedData.image;
   }
 
