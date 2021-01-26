@@ -10,6 +10,7 @@
   background-image: url("../../assets/_logo/the-godfather.svg");
   height: 117px;
   width: 152px;
+  margin: 0px auto;
 }
 .god-father-listing {
   display: flex;
@@ -34,4 +35,8 @@
 }
 .active .god-father-listing-name, .selected .god-father-listing-name {
   color: blue;
+}
+.god-father-listing-item {
+text-align: center;
+    padding: 10px 0px;
 }

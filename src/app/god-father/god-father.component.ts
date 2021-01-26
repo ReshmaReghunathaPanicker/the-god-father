@@ -19,9 +19,9 @@ export class GodFatherComponent implements OnInit {
   }
 
   getClass(currentUserDetails) {
-    let className = '';
+    let className = 'god-father-listing-item';
     if(currentUserDetails == this.selectedGodFather) {
-      className = 'selected';
+      className = className+' selected';
     }
     if((this.selectedGodFather.colleagues).includes(currentUserDetails.name)) {
       className = className+' active';
