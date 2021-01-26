@@ -1,4 +1,4 @@
-import { Component, OnChanges, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 
 @Component({
@@ -6,7 +6,7 @@ import { Component, OnChanges, Input } from '@angular/core';
   templateUrl: './god-father-detail.component.html',
   styleUrls: ['./god-father-detail.component.css']
 })
-export class GodFatherDetailComponent implements OnChanges {
+export class GodFatherDetailComponent {
   @Input() selectedData: any;
 
   constructor() { 
@@ -15,10 +15,6 @@ export class GodFatherDetailComponent implements OnChanges {
 
   getMargin() {
     return ((this.selectedData.popularity/10)*100)+"%";
-  }
-
-  ngOnChanges() {
-    this.selectedData.image = '../../assets/_images/profile-pics/'+this.selectedData.image;
   }
 
 }
