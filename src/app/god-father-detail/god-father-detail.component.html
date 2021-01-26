@@ -1,0 +1,13 @@
+<div class="profile-details-container" *ngIf="selectedData">
+  <div class="profile-pic-block">
+    <div class="profile-pic" [ngStyle]="{ 'background-image': 'url(' + selectedData.image + ')'}"></div>
+  </div>
+  <div class="profile-details">
+    <div class="profile-name">{{selectedData.name}}</div>
+    <div class="popularity"></div>
+    <div class="biography">
+      <div class="biography-title">Biography</div>
+      <div class="biography-content">{{selectedData.biography}}</div>
+    </div>
+  </div>
+</div>
