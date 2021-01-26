@@ -28,13 +28,13 @@
   flex-direction: column;
 }
 .selected {
-  background-color: #ffffff;
+  background-color: #565555;
   opacity: .5;
 }
 .active .god-father-listing-name, .selected .god-father-listing-name {
-  color: blue;
+  color: #14b2ff;
 }
 .god-father-listing-item {
 text-align: center;
-    padding: 10px 0px;
+    padding: 3px 0px;
 }

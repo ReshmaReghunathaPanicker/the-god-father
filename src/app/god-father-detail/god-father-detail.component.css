@@ -1,5 +1,5 @@
 .profile-details-container {
-    margin: 215px 20px 0px 20px;
+    margin: 225px 20px 0px 20px;
     display: flex;
     color: #ffffff;
 }
@@ -23,6 +23,7 @@
 }
 .profile-name {
     font-size: 40px;
+    line-height: 34px;
 }
 .biography {
     background-color: #1b1b1b;
@@ -35,6 +36,8 @@
 }
 .biography-content {
     margin-top: 10px;
+    font-size: 12px;
+    line-height: 18px;
 }
 .populatity-graph {
     position: relative;
