@@ -10,7 +10,7 @@
   background-image: url("../../assets/_logo/the-godfather.svg");
   height: 117px;
   width: 152px;
-  margin: 0px auto;
+  margin: 0px auto 70px auto;
 }
 .god-father-listing {
   display: flex;
