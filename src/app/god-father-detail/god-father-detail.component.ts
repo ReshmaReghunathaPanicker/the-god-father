@@ -13,6 +13,10 @@ export class GodFatherDetailComponent implements OnChanges {
     
   }
 
+  getMargin() {
+    return ((this.selectedData.popularity/10)*100)+"%";
+  }
+
   ngOnChanges() {
     this.selectedData.image = '../../assets/_images/profile-pics/'+this.selectedData.image;
   }

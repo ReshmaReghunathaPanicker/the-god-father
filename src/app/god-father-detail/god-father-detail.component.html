@@ -4,7 +4,13 @@
   </div>
   <div class="profile-details">
     <div class="profile-name">{{selectedData.name}}</div>
-    <div class="popularity"></div>
+    <div class="popularity">
+      <div class="populatity-title">Popularity</div>
+      <div class="populatity-graph">
+        <div class="populatity-line"></div>
+        <div [style.left]="getMargin()" class="populatity-circle"></div>
+      </div>
+    </div>
     <div class="biography">
       <div class="biography-title">Biography</div>
       <div class="biography-content">{{selectedData.biography}}</div>

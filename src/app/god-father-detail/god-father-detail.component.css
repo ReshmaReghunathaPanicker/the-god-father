@@ -36,3 +36,30 @@
 .biography-content {
     margin-top: 10px;
 }
+.populatity-graph {
+    position: relative;
+    display: inline-block;
+    width: 80%;
+}
+.populatity-circle {
+    height: 12px;
+    width: 12px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    position: relative;
+}
+.populatity-line {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    z-index: 0;
+    top: 5px;
+}
+.populatity-title {
+    display: inline-block;
+    width: 20%;
+}
+.popularity {
+    margin: 20px 0px;
+}
